@@ -36,7 +36,7 @@ public class server {
             System.out.println("reader started...");
 
             try {
-            while(true){
+            while(true){                                                    //true is for reading until exit message is received
                 String msg;
                     msg = br.readLine();
                     if(msg.equals("exit")){
